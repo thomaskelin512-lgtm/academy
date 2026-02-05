@@ -170,15 +170,15 @@
   <p>© 2026 Quran Academy — All Rights Reserved</p>
 </footer>
 
-
-
-<script src="script.js">
+<script>
 const hamburger = document.getElementById("hamburger");
-const nav = document.getElementById("navLinks");
+const navLinks = document.getElementById("navLinks");
 
-hamburger.onclick = () => {
-  nav.classList.toggle("active");
-};
+hamburger.addEventListener("click", function(){
+  navLinks.classList.toggle("active");
+});
 </script>
+
+
 </body>
 </html>
